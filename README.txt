@@ -38,7 +38,8 @@ Bracket Edit Menu
         * will have to rebuild bracket every startup of the simulation using this option
     - Set Match winner - select a match and winner of the match to proceed up the bracket
 
-
+*known bugs*
+   - Rebuild Bracket has issues building a bracket after 4 drivers
 
 How to build/run:
 
@@ -47,3 +48,4 @@ In terminal(Path should be the folder where your TrackManager.cpp file is):
 g++ TrackManager.cpp -o TrackManagerSimulator
 
 start TrackManagerSimulator.exe
+
